@@ -1,0 +1,54 @@
+.Home h1{
+    color: black;
+    width: 40%;
+     margin: 30px auto 20px auto;
+     border-radius: 3rem;
+	
+}
+.Home h2{
+    color: rgb(206, 5, 5);
+	
+}
+
+.Home p{
+    width:90%;
+    margin: auto;
+    font-size: larger;
+    color: rgb(17, 123, 228);
+    font-size: 25px;
+}
+
+.Home .home-par {
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    margin: auto;
+    border-radius: 1em;
+    padding: 5px 0px 20px 0px;
+
+}
+
+.Home  .login-register{
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    margin: 30px auto 40px auto;
+    border-radius: 1em;
+    padding: 20px 0px 20px 0px;
+    
+
+}
+
+.Home  .login-register a{
+    color:rgb(128, 0, 255);
+    font-weight: bold;
+    font-size: 25px;
+    font-style:italic ;
+
+
+}
+
+.Home img{
+    width: 300px;
+    
+}
+

@@ -1,0 +1,42 @@
+.Layout{
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content :stretch;
+    
+}
+.Layout, .Layout > *{
+    border: 1px solid black;
+
+}
+.Layout header{
+    flex:auto;
+    order:1;
+}
+a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #3E3F40;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+.Layout main{
+    overflow: auto;
+    flex:9;
+    order:1;
+}
+
+header, footer{
+    grid-template-rows: 10%;
+    border: 1px black;
+    order:3;
+
+}
+
+
+  

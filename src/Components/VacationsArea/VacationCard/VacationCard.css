@@ -1,0 +1,57 @@
+.VacationCard .card-header  {
+  position:relative;
+}
+
+.VacationCard .follow{
+    /* position: fixed; */
+    cursor: pointer;
+    position: relative;
+    margin: 10px 500px -40px 0px;
+
+
+  }
+
+  .VacationCard .icon{
+    position: absolute;
+    right:0px;
+
+  }
+  .VacationCard .delete{
+    cursor:pointer;
+    position: absolute;
+    top: 5;
+    right: 0;
+
+}
+
+.VacationCard .update{
+  cursor:pointer;
+  position: absolute;
+  left: 0;
+
+
+}
+
+.VacationCard {
+  width: 430px;
+  margin: 35px;
+}
+.VacationCard .card{
+position: relative ;
+}
+
+
+
+.VacationCard .price{
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  bottom: 40px;
+  background-color: rgb(100, 249, 128);
+  border-radius: 1em;
+  padding: 10px;
+}
+
+
+
+

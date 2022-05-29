@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Layout from './Components/LayoutArea/Layout/Layout';
+import { BrowserRouter } from 'react-router-dom';
+import interceptorsService from './Services/InterceptorsService';
+import { Provider } from 'react-redux'
+import store from './Redux/Store'
+
+
+interceptorsService.createInterceptors();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Provider store={store}>
+    <Layout />
+    </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

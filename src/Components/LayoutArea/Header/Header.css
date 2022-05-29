@@ -1,0 +1,19 @@
+ .Header > * {
+    height: 10% ;
+    justify-content: center;
+   
+}
+
+.Header .login  {
+    margin-left: auto;
+    margin-right: 5px; 
+
+} 
+.Header .menu {
+    margin-left: 40px;
+}
+
+.Header .login-button {
+    font-weight: bold;
+    font-size: 30px;
+} 
